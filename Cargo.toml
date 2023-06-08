@@ -1,0 +1,12 @@
+[package]
+name = "lgbtq_site"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+yew = { version="0.20", features=["csr"] }
+getrandom = { version = "0.2", features = ["js"] }
+rand = "*"
+web-sys = { version="0.3.63", features=["Location"] } 
+wasm-bindgen = "0.2.86"
